@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main{
+        max-width: 1300px;
+    }
+    main > section#not2 > div.noticiasecundaria{
+        display: inline-block;
+        height: 200px;
+        width: 590px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+    main > section#not2 > div.noticiasecundaria > article{
+        display: block;
+        background: #5f2c82 url('../Imagens/Fundo.jpg') no-repeat;
+        background-size: cover;
+        background-position: left center;
+        height: 210px;
+        width: 200px;
+        margin: -120px 10px 10px 390px;
+    }
+    main > section#not2 > div.noticiasecundaria > h2{
+        font-size: 2em;
+    }
+    main > section#not2 > div.noticiasecundaria > p{
+        font-size: 1.2em;
+    }
+    main > section#not2 > div.noticiasecundaria > a{
+        font-size: 1.3em;
+    }
+    main section#noticia1{
+        width: 800px;
+    }
+    main div#about{
+        display: inline-block;
+        width: 400px;
+        margin: 10px 10px -320px 10px;
+    }
+    main section#arquivos{
+        margin: 165px 0px 0px 430px;;
+    }
+    main section#ult{
+        margin: -140px 10px 10px 565px;
+    }
+}
